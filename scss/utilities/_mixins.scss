@@ -1,0 +1,12 @@
+@mixin base-style {
+    color: $base-text-color;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    p {
+      line-height: 1.45em;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+  }
